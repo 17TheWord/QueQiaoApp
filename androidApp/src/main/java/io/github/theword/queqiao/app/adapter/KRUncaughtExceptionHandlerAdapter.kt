@@ -1,8 +1,8 @@
 package io.github.theword.queqiao.app.adapter
 
 import android.util.Log
+import com.tencent.kuikly.core.render.android.BuildConfig
 import com.tencent.kuikly.core.render.android.adapter.IKRUncaughtExceptionHandlerAdapter
-import io.github.theword.queqiao.app.BuildConfig
 
 object KRUncaughtExceptionHandlerAdapter : IKRUncaughtExceptionHandlerAdapter {
 
