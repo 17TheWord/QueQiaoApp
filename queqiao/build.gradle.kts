@@ -109,6 +109,10 @@ dependencies {
 //        add("kspIosX64", this)
 //        add("kspIosSimulatorArm64", this)
     }
+
+    implementation("io.ktor:ktor-client-core:2.3.7")      // 核心库
+    implementation("io.ktor:ktor-client-cio:2.3.7")       // 异步IO引擎
+    implementation("io.ktor:ktor-client-websockets:2.3.7")// WebSocket支持
 }
 
 android {
